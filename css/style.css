@@ -548,7 +548,7 @@ margin-bottom: 2px;
 
     
 }
-@media (max-width:500px) {
+@media (max-width:600px) {
     .nav-middle .search-box input{
         width: 150px;
     }
