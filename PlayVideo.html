@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/7b5f9d112b.js" crossorigin="anonymous"></script>
+    <title>Play Video- code with sameer</title>
+    <link rel="shortcut icon" href="./images/icons8-youtube-48.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <img src="./images/icons8-menu-rounded-50.png" class="menu-icon" alt="">
+           <a href="./index.html"><img src="./images/youtube-logo.png" class="logo" alt=""></a> 
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="Search">
+                <img src="./images/icons8-search-50.png" alt="search">
+            </div>
+            <img src="./images/voice-search.png" class="mic-logo" alt="">
+        </div>
+        <div class="nav-right flex-div">
+            <img src="./images/icons8-create-video-96.png" alt="">
+            <!-- <img src="./images/more.png" alt=""> -->
+            <img src="./images/icons8-notification-50.png" alt="">
+            <img src="./images/profile.jpeg" class="user-icon" alt="">
+        </div>
+    </nav>
+
+    <!-- -----------------------sidebar--------------------- -->
+
+    <div class="container play-container">
+        <div class="row">
+            <div class="play-video">
+                <video src="./images/video.mp4" controls autoplay></video>
+                <!-- <div class="tags">
+                    <a href="">#coding</a> <a href="">#html</a> <a href="">#webdevelopment</a> <a
+                        href="">#Javascript</a> <a href=""></a>
+                </div> -->
+                <h3>How To Start Developement From Beginning To Advance Level || Must Watch It</h3>
+                <div class="play-video-info">
+                    <div class="publisher">
+                        <div class="">
+                            <img src="./images/profile.jpeg" alt="">
+                            <div class="">
+                                <p>Code With Sameer</p>
+                                <span>2k Subscribers</span>
+                            </div>
+                        </div>
+                        <button class="subscribe" id="SubscribeBtn"> <img src="./images/icons8-notification-bell-64.png" class="notification-bell" alt="">Subscribe</button>
+
+                    </div>
+                    <div class="video-imp-icon">
+                        <a href=""><img src="./images/like.png" alt="">125</a>
+                        <a href=""><img src="./images/icons8-dislike-64.png" alt="">2</a>
+                        <a href=""><img src="./images/share.png" alt="">Share</a>
+                        <a href=""><img src="./images/save.png" alt="">Save</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="video-description">
+                    <p>3 lakh views &bull; 2weeks ago</p>
+                    <p>do like ,share and subscribe for more developement related video</p>
+                    <p>Thanks for watching</p>
+                    <hr>
+                    <h4>55 comments</h4>
+                    <div class="add-comment">
+                        <img src="./images/profile.jpeg" alt="">
+                        <input type="text" placeholder="Add a comment...">
+                    </div>
+                    <div class="old-comment">
+                        <img src="./images/codewithharry.jpg" alt="">
+                        <div>
+                            <h3>Code With Harry <span>2 days ago</span></h3>
+                            <p>You consistently show respect for both your peers and your teachers. Your disposition and manners always impress me. You're a kind and considerate student, and I'm glad to be your teacher</p>
+                            <div class="comment-action">
+                                <img src="./images/like.png" alt="">
+                                <span>69</span>
+                                <img src="./images/icons8-dislike-64.png" alt="">
+                                <span>1</span>
+                                <span>REPLY</span>
+                                <a href="">All replies</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="old-comment">
+                        <img src="./images/gate smashers.jpg" alt="">
+                        <div>
+                            <h3>Gate Smashers <span>6 days ago</span></h3>
+                            <p>I find it commendable that this student is so innovative and actively tries to develop unique ideas during brainstorming sessions. Their ability to find new ways to accomplish projects and incorporate creativity into their work is something I value in my classroom. It's wonderful to have this perspective in my classroom.</p>
+                            <div class="comment-action">
+                                <img src="./images/like.png" alt="">
+                                <span>144</span>
+                                <img src="./images/icons8-dislike-64.png" alt="">
+                                <span>6</span>
+                                <span>REPLY</span>
+                                <a href="">All replies</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="old-comment">
+                        <img src="./images/lovebabbar.jpg" alt="">
+                        <div>
+                            <h3>Love Babbar <span>1 month ago</span></h3>
+                            <p>Your commitment to growth impresses me.</p>
+                            <div class="comment-action">
+                                <img src="./images/like.png" alt="">
+                                <span>244</span>
+                                <img src="./images/icons8-dislike-64.png" alt="">
+                                <span>5</span>
+                                <span>REPLY</span>
+                                <a href="">All replies</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-sidebar">
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="./images/thumbnail1.jpeg" alt=""></a>
+                    <div class="vid-info">
+                        <a href="" class="small-thumbnail">Tranding song 2023: Pyar Tune kya kya || 1 million views</a>
+                        <p>Music World <img src="./images/icons8-approval-60.png" alt="" id="approved-icon"> </p>
+                        <p>15k views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="./images/thumbnail2.jpeg" alt=""></a>
+                    <div class="vid-info">
+                        <a href="" class="small-thumbnail">5 stages to learn coding :: by anuj bhiyya must watch</a>
+                        <p>Anuj Bhaiya <img src="./images/icons8-approval-60.png" alt="" id="approved-icon"> </p>
+                        <p>1k views &bull; 3 hours ago</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="./images/thumbnail3.jpeg" alt=""></a>
+                    <div class="vid-info">
+                        <a href="" class="small-thumbnail">10 new business idea that will never close your can do that </a>
+                        <p>Business industry <img src="./images/icons8-approval-60.png" alt="" id="approved-icon"> </p>
+                        <p>2k views &bull; 2 year ago</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="./images/thumbnail4.jpeg" alt=""></a>
+                    <div class="vid-info">
+                        <a href="" class="small-thumbnail">best motivation video that increase your learning power</a>
+                        <p>Motivation channel<img src="./images/icons8-approval-60.png" alt="" id="approved-icon"> </p>
+                        <p>1M views &bull; 6 months ago</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="./images/thumbnail5.jpeg" alt=""></a>
+                    <div class="vid-info">
+                        <a href="" class="small-thumbnail">what is the difference between lawyar, advocate and barister?..</a>
+                        <p>BALLB<img src="./images/icons8-approval-60.png" alt="" id="approved-icon"> </p>
+                        <p>40 views &bull; 5 days</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="./images/thumbnail6.jpeg" alt=""></a>
+                    <div class="vid-info">
+                        <a href="" class="small-thumbnail">kya flavour hukkah khatarnak hai? ? </a>
+                        <p>chemical tester <img src="./images/icons8-approval-60.png" alt="" id="approved-icon"> </p>
+                        <p>3M &bull; 4 years</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="./images/thumbnail8.jpeg" alt=""></a>
+                    <div class="vid-info">
+                        <a href="" class="small-thumbnail">50k electric bike unboxing click to watch them</a>
+                        <p>house pointer <img src="./images/icons8-approval-60.png" alt="" id="approved-icon"> </p>
+                        <p>1.3k views &bull; 2 weeks</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="./images/thumbnail10.jpeg" alt=""></a>
+                    <div class="vid-info">
+                        <a href="" class="small-thumbnail">the ultimate python couse from beginning to advance</a>
+                        <p>Code With Harry<img src="./images/icons8-approval-60.png" alt="" id="approved-icon"> </p>
+                        <p>3M &bull; 2 weeks</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="./images/thumbnail15.jpeg" alt=""></a>
+                    <div class="vid-info">
+                           <a href="">Channel To Learn Coding That Help You To Be A Web Developer</a>
+                            <p>5lakhs views</p>
+
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="./images/thumbnail17.jpeg" alt=""></a>
+                    <div class="vid-info">
+                            <a href="">Introduce To Artificial Intelligence Which Is Demanding Skills In 2023</a>
+                            <p>15k views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="./images/thumbnail19.jpeg" alt=""></a>
+                    <div class="vid-info">
+                         <a href="">learn complete english from basic to advance</a>
+                            <p>15k views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="./images/thumbnail1.jpeg" alt=""></a>
+                    <div class="vid-info">
+                        <a href="">Tranding Song 2023: Pyar Tune Kya Kya || 1 Million Views</a>
+                            <p>15k views</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
